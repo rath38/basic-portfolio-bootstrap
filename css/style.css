@@ -1,0 +1,90 @@
+#body-container {
+	background-image: url(../images/vintage-concrete.png);
+}
+
+#about{
+	background-color: #ffffff;
+	margin: 0 auto 50px auto;
+
+}
+
+#connect{
+	background-color: #ffffff;
+	text-align: center;
+}
+
+#title{
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 1px;
+}
+input.text{
+	width: 95%;
+}
+textarea{
+	width: 95%;
+}
+ul li.connectimg{
+	float: left;
+}
+ul#connectul{
+	display: inline-block;
+	padding: 0;
+}
+
+ul li a.lazy {
+	border-right: 1px solid lightgrey;
+
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Georgia', "Times", "Times New Roman", "serif";
+	color: #4aaaa5; 
+}
+div.wrapper{
+	float: left;
+	position:relative;
+	padding: 0 20px 50px 20px;
+	margin-bottom: 50px;
+
+
+}
+div.confused{
+	position: absolute;
+	width: 270px;
+	background-color:#4aaaa5;
+	color: white; 
+	bottom:70px;
+	left:20px;
+}
+p.annoyed{
+	padding: 15px;
+	margin: 0px;
+}
+footer {
+	text-align: center;
+	background-color: #666666;
+	height: 80px;
+	border-top: 10px solid #4aaaa5;
+	}
+
+footer p {
+color: #ffffff;
+padding-top: 15px;
+}	
+
+@media (max-width: 640px) {
+
+img.portimg{
+ 	width:530px;
+ 	height:400px;
+ 	float: none;
+ 	margin: 0 auto 0 auto; 
+ }
+
+ div.confused {
+	width: 530px;
+ }
+ .row {
+ 	margin:auto;
+ }
+}
